@@ -1,0 +1,67 @@
+- 第2天 (2019.04.18)
+    - [html] [html的元素有哪些（包含H5）？](https://github.com/haizlin/fe-interview/issues/4)
+      - 标签元素
+        - html | meta | title | style | link | body
+      - 块级元素
+        - address 联系方式信息
+        - article `H5` 文章信息
+        - aside `H5` 伴随信息
+        - audio `H5` 音频
+        - 
+        - blockquote 块引用
+        - 
+        - canvas `H5` 绘制图形
+        - 
+        - dd 定义列表中的描述项
+        - div 文档分区
+        - dl 定义列表
+        - 
+        - fieldset 表单元素分组
+        - figcaption `H5` 图文信息组标题
+        - figure `H5` 图文信息组
+        - footer `H5` 页尾
+        - form 表单
+        - 
+        - h1～h6
+        - header `H5` 页头
+        - hgroup `H5` 标题组
+        - hr 水平分割线
+        - 
+        - noscript 不支持脚本或禁用脚本时出现的内容
+        - 
+        - ol 有序列表
+        - output `H5` 表单输出
+        - 
+        - p 文本行
+        - pre 预格式化文本
+        - 
+        - section 一个页面区段
+        - 
+        - table 表格
+        - tfoot 表脚注
+        - 
+        - ul 无序列表
+        - 
+        - video `H5` 视频
+      - 行内元素
+        - b, big, i, small, tt
+        - abbr, acronym, cite, code, dfn, em, kbd, strong, samp, var
+        - a, bdo, br, img, map, object, q, script, span, sub, sup
+        - button, input, label, select, textarea
+    - [css] [CSS3有哪些新增的特性？](https://github.com/haizlin/fe-interview/issues/5)
+      - 边框 (border-radius,border-image,box-shadow)
+      - 背景 (background-size, background-origin, background-clips)
+      - 渐变 (linear-gradient, radial-gradient)
+      - 文本效果 (word-break, word-wrap, text-overflow,text-shadow,text-wrap,text-outline,text-justify)
+      - 转换
+        - 2D属性(transform, transform-origin)
+        - 2D方法(translate, translateX, translateY, rotate, scale)
+      - 过渡
+        - transition
+      - 动画
+        - animation
+        - @keyframes
+    - [js] [写一个方法去掉字符串中的空格](https://github.com/haizlin/fe-interview/issues/6)
+      - function trim (str) {return str.split(' ').join('')}
+      - function trim (str) {return str.replace(/\s+/g,'')}
+      - const trim = (str) => str.split('').filter((item) => item !== ' ').join('')
