@@ -1,0 +1,16 @@
+- 第1天 (2019.04.17)
+    - [html] [页面导入样式时，使用link和@import有什么区别？](https://github.com/haizlin/fe-interview/issues/1)
+      - 从属属性区别：标签和css语法规则
+      - 加载顺序区别：异步和同步加载
+      - 兼容性区别：无兼容性和IE5以上
+      - DOM操作性区别：可操作和不可操作
+    - [css] [圣杯布局和双飞翼布局的理解和区别，并用代码实现](https://github.com/haizlin/fe-interview/issues/2)
+      - 作用：两种布局都是三栏布局，两栏顶宽，中间自适应，中间栏放在文档流最前面渲染
+      - 区别：
+        - 圣杯布局：中间设置左右 padding，将左右栏设置 position:relative 配合left，right 属性，以便左右两栏不遮挡中间。
+        - 双飞翼布局：中间再加一个子div，给子div设置左右margin为左右栏留出位置。
+    - [js] [用递归算法实现，数组长度为5且元素的随机数在2-32间不重复的值](https://github.com/haizlin/fe-interview/issues/3)
+      - 创建长度为5的空数组
+      - 创建在2-32之间的随机数
+      - 不重复判断：首先得判断数组长度，然后判断是否重复，如果重复，返回函数，不重复再push进数组
+  
