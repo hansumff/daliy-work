@@ -1,0 +1,34 @@
+- 第3天 (2019.04.19)
+  - [html] [HTML全局属性(global attribute)有哪些（包含H5）？](https://github.com/haizlin/fe-interview/issues/7)
+  - accesskey
+  - autocapitalize
+  - class
+  - contenteditable
+  - data-*
+  - dir
+      - ltr
+      - rtl
+      - auto
+  - draggable
+  - hidden
+  - id
+  - is
+  - lang
+  - title
+  - style
+  - [css] [在页面上隐藏元素的方法有哪些？](https://github.com/haizlin/fe-interview/issues/8)
+  - display:none
+  - w0+h0+overflow:hidden
+  - opacity:0
+  - z-index:-999999
+  - left/right
+  - position:relative, left:-999999
+  - margin-left:-999999
+  - visibility:hidden
+  - translate:scale(0)
+  - [js] [去除字符串中最后一个指定的字符](https://github.com/haizlin/fe-interview/issues/9)
+  - 封装一个函数，两个参数，(arr,target)
+  - 获取目标元素所在数组中的索引
+  - 根据索引删除目标值 (或者用正则)
+  - 返回被删后的新数组
+  
