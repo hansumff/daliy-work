@@ -1,0 +1,24 @@
+- 第5天 (2019.04.21)
+    - [html] [简述超链接target属性的取值和作用](https://github.com/haizlin/fe-interview/issues/13)
+      - 取值:作用
+        - _blank：在新窗口中打开
+        - _parent
+        - _self：在当前页面打开
+        - _top
+    - [css] [CSS3新增伪类有哪些并简要描述](https://github.com/haizlin/fe-interview/issues/14)
+      - p:first-of-type 选择属于其父元素的首个p元素的每个p元素
+      - p:last-of-type
+      - p:only-of-type
+      - p:only-child
+      - p:nth-child(n)
+      - p:nth-last-child(n)
+      - p:nth-of-type(n)
+      - p:nth-last-of-type(n)
+      - p:last-child
+      - p:empty
+      - p:target
+      - :not(p)
+      - :enabled
+      - :disabled
+      - :checked
+    - [js] [写一个把字符串大小写切换的方法](https://github.com/haizlin/fe-interview/issues/15)
