@@ -9,3 +9,4 @@
       - 盒子套盒子，外层盒子设置属性overflow:hidden，让超出部分隐藏
       - 内层盒子可以通过旋转rotate，position定位来显示出三角形
     - [js] [写一个去除制表符和换行符的方法](https://github.com/haizlin/fe-interview/issues/18)
+      - const removeSymbol = (str) => st.replace(/\t|\n|\r/g, '');
