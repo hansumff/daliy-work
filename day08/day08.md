@@ -1,0 +1,4 @@
+- 第8天 (2019.04.24)
+    - [html] [简述下html5的离线储存原理，同时说明如何使用？](https://github.com/haizlin/fe-interview/issues/22)
+    - [css] [清除浮动的方式有哪些及优缺点？](https://github.com/haizlin/fe-interview/issues/23)
+    - [js] [写一个加密字符串的方法](https://github.com/haizlin/fe-interview/issues/24)
