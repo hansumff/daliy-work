@@ -1,4 +1,10 @@
 - 第8天 (2019.04.24)
     - [html] [简述下html5的离线储存原理，同时说明如何使用？](https://github.com/haizlin/fe-interview/issues/22)
+      - 原理：HTML5离线存储是基于一个新建的.appcache文件的缓存机制，通过这个文件的解析清单离线存储资源，这些资源就像cookie一样被存储下来。当网络处于离线状态下时，浏览器会通过被离线存储的数据进行展示。
+      - 使用：
+        - 1. 页面头部加入一个manifest的属性；
+        - 2. 在cache.manifest文件的编写离线存储的资源；
+        - 3. 在离线状态下，操作window.aoolicationCache进行需求实现；
     - [css] [清除浮动的方式有哪些及优缺点？](https://github.com/haizlin/fe-interview/issues/23)
+      - 
     - [js] [写一个加密字符串的方法](https://github.com/haizlin/fe-interview/issues/24)
